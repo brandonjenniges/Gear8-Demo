@@ -14,3 +14,7 @@ https://www.youtube.com/watch?v=cHwCJdx9qXk
 Known Issues
 --------------
 - Assets are too small for iPad Pro
+
+License
+---------------
+This project is released under the MIT license. See LICENSE for details.
