@@ -1,8 +1,4 @@
 //
-//  GameViewController.swift
-//  Gear8Demo
-//
-//  Created by Brandon Jenniges on 11/4/15.
 //  Copyright (c) 2015 Brandon Jenniges. All rights reserved.
 //
 
@@ -34,11 +30,6 @@ class GameViewController: UIViewController {
         } else {
             return .All
         }
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Release any cached data, images, etc that aren't in use.
     }
 
     override func prefersStatusBarHidden() -> Bool {

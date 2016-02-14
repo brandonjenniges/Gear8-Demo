@@ -1,8 +1,4 @@
 //
-//  PaintScene.swift
-//  Gear8Demo
-//
-//  Created by Brandon Jenniges on 11/6/15.
 //  Copyright © 2015 Brandon Jenniges. All rights reserved.
 //
 

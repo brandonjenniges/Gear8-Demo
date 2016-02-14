@@ -1,8 +1,4 @@
 //
-//  DragDropScene.swift
-//  Gear8Demo
-//
-//  Created by Brandon Jenniges on 11/4/15.
 //  Copyright © 2015 Brandon Jenniges. All rights reserved.
 //
 
@@ -21,11 +17,11 @@ class DragDropScene: SKScene {
     
     override init(size: CGSize) {
         super.init(size: size)
-        self.backgroundColor = SKColor(red: 1, green: 1, blue: 1, alpha: 1)
+        backgroundColor = SKColor(red: 1, green: 1, blue: 1, alpha: 1)
         
         let background = SKSpriteNode(imageNamed:"background_1_blank")
         background.position = CGPointMake(CGRectGetMidX(self.frame), CGRectGetMidY(self.frame))
-        self.addChild(background)
+        addChild(background)
         
         let label = SKLabelNode(fontNamed: "Chalkduster")
         label.text = "Gear 8 Demo!"
@@ -50,13 +46,13 @@ class DragDropScene: SKScene {
     }
     
     func setupBlankImages() {
-        paper.blank.position = CGPointMake(CGRectGetMidX(self.frame) + 140, CGRectGetMidY(self.frame) + 175)
-        self.addChild(paper.blank)
+        paper.blank.position = CGPointMake(size.width / 2 + 140, size.height / 2 + 175)
+        addChild(paper.blank)
         
         circle.blank.position = CGPointMake(paper.blank.position.x + 200, paper.blank.position.y)
         self.addChild(circle.blank)
         
-        triangle.blank.position = CGPointMake(paper.blank.position.x, CGRectGetMidY(self.frame) + 25)
+        triangle.blank.position = CGPointMake(paper.blank.position.x, size.height / 2 + 25)
         self.addChild(triangle.blank)
         
         square.blank.position = CGPointMake(circle.blank.position.x, triangle.blank.position.y)

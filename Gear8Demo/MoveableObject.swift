@@ -1,8 +1,4 @@
 //
-//  MoveableObject.swift
-//  Gear8Demo
-//
-//  Created by Brandon Jenniges on 11/5/15.
 //  Copyright © 2015 Brandon Jenniges. All rights reserved.
 //
 

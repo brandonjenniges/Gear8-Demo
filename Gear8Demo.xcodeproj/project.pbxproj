@@ -20,13 +20,13 @@
 		FB11759F1BED9FB40020A33B /* SKTEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1175931BED9FB40020A33B /* SKTEffects.swift */; };
 		FB1175A01BED9FB40020A33B /* SKTTimingFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1175941BED9FB40020A33B /* SKTTimingFunctions.swift */; };
 		FB1175A11BED9FB40020A33B /* Vector3.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1175951BED9FB40020A33B /* Vector3.swift */; };
-		FB1175A31BEDA2870020A33B /* PaintScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1175A21BEDA2870020A33B /* PaintScene.swift */; };
 		FB3590541BEB000F00629596 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3590531BEB000F00629596 /* AppDelegate.swift */; };
-		FB3590581BEB000F00629596 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3590571BEB000F00629596 /* GameScene.swift */; };
 		FB35905A1BEB000F00629596 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3590591BEB000F00629596 /* GameViewController.swift */; };
 		FB35905D1BEB000F00629596 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB35905B1BEB000F00629596 /* Main.storyboard */; };
 		FB35905F1BEB000F00629596 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB35905E1BEB000F00629596 /* Assets.xcassets */; };
-		FB35906A1BEB092F00629596 /* DragDropScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3590691BEB092F00629596 /* DragDropScene.swift */; };
+		FBA23FD51C701E58008F120C /* DragDropScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA23FD21C701E58008F120C /* DragDropScene.swift */; };
+		FBA23FD61C701E58008F120C /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA23FD31C701E58008F120C /* GameScene.swift */; };
+		FBA23FD71C701E58008F120C /* PaintScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA23FD41C701E58008F120C /* PaintScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,15 +43,15 @@
 		FB1175931BED9FB40020A33B /* SKTEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKTEffects.swift; sourceTree = "<group>"; };
 		FB1175941BED9FB40020A33B /* SKTTimingFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKTTimingFunctions.swift; sourceTree = "<group>"; };
 		FB1175951BED9FB40020A33B /* Vector3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vector3.swift; sourceTree = "<group>"; };
-		FB1175A21BEDA2870020A33B /* PaintScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaintScene.swift; sourceTree = "<group>"; };
 		FB3590501BEB000F00629596 /* Gear8Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gear8Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB3590531BEB000F00629596 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FB3590571BEB000F00629596 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		FB3590591BEB000F00629596 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		FB35905C1BEB000F00629596 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FB35905E1BEB000F00629596 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB3590631BEB000F00629596 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FB3590691BEB092F00629596 /* DragDropScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragDropScene.swift; sourceTree = "<group>"; };
+		FBA23FD21C701E58008F120C /* DragDropScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragDropScene.swift; sourceTree = "<group>"; };
+		FBA23FD31C701E58008F120C /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		FBA23FD41C701E58008F120C /* PaintScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaintScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,18 +103,26 @@
 		FB3590521BEB000F00629596 /* Gear8Demo */ = {
 			isa = PBXGroup;
 			children = (
-				FB1175891BED9FB40020A33B /* SKTUtils */,
 				FB3590531BEB000F00629596 /* AppDelegate.swift */,
-				FB3590571BEB000F00629596 /* GameScene.swift */,
-				FB3590591BEB000F00629596 /* GameViewController.swift */,
-				FB35905B1BEB000F00629596 /* Main.storyboard */,
 				FB35905E1BEB000F00629596 /* Assets.xcassets */,
+				FB3590591BEB000F00629596 /* GameViewController.swift */,
 				FB3590631BEB000F00629596 /* Info.plist */,
-				FB3590691BEB092F00629596 /* DragDropScene.swift */,
+				FB35905B1BEB000F00629596 /* Main.storyboard */,
 				FB1175871BEC76F90020A33B /* MoveableObject.swift */,
-				FB1175A21BEDA2870020A33B /* PaintScene.swift */,
+				FBA23FD11C701E58008F120C /* Scenes */,
+				FB1175891BED9FB40020A33B /* SKTUtils */,
 			);
 			path = Gear8Demo;
+			sourceTree = "<group>";
+		};
+		FBA23FD11C701E58008F120C /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				FBA23FD21C701E58008F120C /* DragDropScene.swift */,
+				FBA23FD31C701E58008F120C /* GameScene.swift */,
+				FBA23FD41C701E58008F120C /* PaintScene.swift */,
+			);
+			path = Scenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,8 +198,7 @@
 				FB1175971BED9FB40020A33B /* CGPoint+Extensions.swift in Sources */,
 				FB11759F1BED9FB40020A33B /* SKTEffects.swift in Sources */,
 				FB11759A1BED9FB40020A33B /* SKAction+Extensions.swift in Sources */,
-				FB1175A31BEDA2870020A33B /* PaintScene.swift in Sources */,
-				FB3590581BEB000F00629596 /* GameScene.swift in Sources */,
+				FBA23FD71C701E58008F120C /* PaintScene.swift in Sources */,
 				FB11759D1BED9FB40020A33B /* SKNode+Extensions.swift in Sources */,
 				FB35905A1BEB000F00629596 /* GameViewController.swift in Sources */,
 				FB1175A01BED9FB40020A33B /* SKTTimingFunctions.swift in Sources */,
@@ -200,11 +207,12 @@
 				FB1175A11BED9FB40020A33B /* Vector3.swift in Sources */,
 				FB3590541BEB000F00629596 /* AppDelegate.swift in Sources */,
 				FB11759C1BED9FB40020A33B /* SKColor+Extensions.swift in Sources */,
+				FBA23FD61C701E58008F120C /* GameScene.swift in Sources */,
 				FB1175981BED9FB40020A33B /* CGVector+Extensions.swift in Sources */,
 				FB1175881BEC76F90020A33B /* MoveableObject.swift in Sources */,
 				FB11759E1BED9FB40020A33B /* SKTAudio.swift in Sources */,
 				FB1175961BED9FB40020A33B /* CGFloat+Extensions.swift in Sources */,
-				FB35906A1BEB092F00629596 /* DragDropScene.swift in Sources */,
+				FBA23FD51C701E58008F120C /* DragDropScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
